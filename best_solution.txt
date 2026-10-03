@@ -1,0 +1,75 @@
+Best Solution (Pareto Index 0):
+
+Objective Function Scores:
+overallocation: 0
+conflicts: 0
+undersupport: 1.0
+unwilling: 0
+unpreferred: 5
+
+Assigned Sections for Each TA:
+TA TA 0 (ID: 0) is assigned to sections: [8]
+TA TA 1 (ID: 1) is assigned to sections: []
+TA TA 2 (ID: 2) is assigned to sections: [8]
+TA TA 3 (ID: 3) is assigned to sections: [14]
+TA TA 4 (ID: 4) is assigned to sections: [7]
+TA TA 5 (ID: 5) is assigned to sections: [14]
+TA TA 6 (ID: 6) is assigned to sections: [15]
+TA TA 7 (ID: 7) is assigned to sections: [3, 15]
+TA TA 8 (ID: 8) is assigned to sections: [12]
+TA TA 9 (ID: 9) is assigned to sections: [11]
+TA TA 10 (ID: 10) is assigned to sections: [6, 10]
+TA TA 11 (ID: 11) is assigned to sections: [14]
+TA TA 12 (ID: 12) is assigned to sections: [13]
+TA TA 13 (ID: 13) is assigned to sections: [7, 16]
+TA TA 14 (ID: 14) is assigned to sections: [12]
+TA TA 15 (ID: 15) is assigned to sections: [11]
+TA TA 16 (ID: 16) is assigned to sections: [0]
+TA TA 17 (ID: 17) is assigned to sections: [4]
+TA TA 18 (ID: 18) is assigned to sections: [1]
+TA TA 19 (ID: 19) is assigned to sections: [10]
+TA TA 20 (ID: 20) is assigned to sections: [0, 4]
+TA TA 21 (ID: 21) is assigned to sections: [5]
+TA TA 22 (ID: 22) is assigned to sections: [9]
+TA TA 23 (ID: 23) is assigned to sections: [15]
+TA TA 24 (ID: 24) is assigned to sections: [16]
+TA TA 25 (ID: 25) is assigned to sections: [13]
+TA TA 26 (ID: 26) is assigned to sections: [1, 9]
+TA TA 27 (ID: 27) is assigned to sections: [5]
+TA TA 28 (ID: 28) is assigned to sections: [13]
+TA TA 29 (ID: 29) is assigned to sections: [5]
+TA TA 30 (ID: 30) is assigned to sections: [3]
+TA TA 31 (ID: 31) is assigned to sections: [2]
+TA TA 32 (ID: 32) is assigned to sections: [11]
+TA TA 33 (ID: 33) is assigned to sections: [6]
+TA TA 34 (ID: 34) is assigned to sections: [10]
+TA TA 35 (ID: 35) is assigned to sections: [8]
+TA TA 36 (ID: 36) is assigned to sections: [12]
+TA TA 37 (ID: 37) is assigned to sections: [1]
+TA TA 38 (ID: 38) is assigned to sections: [16]
+TA TA 39 (ID: 39) is assigned to sections: [2, 4]
+TA TA 40 (ID: 40) is assigned to sections: [0]
+TA TA 41 (ID: 41) is assigned to sections: [10]
+TA TA 42 (ID: 42) is assigned to sections: []
+
+Assigned TAs for Each Section:
+Section 0 (DS) has TAs: ['TA 16', 'TA 20', 'TA 40']
+Section 1 (Health) has TAs: ['TA 18', 'TA 26', 'TA 37']
+Section 2 (DS) has TAs: ['TA 31', 'TA 39']
+Section 3 (SocSci) has TAs: ['TA 7', 'TA 30']
+Section 4 (SocSci) has TAs: ['TA 17', 'TA 20', 'TA 39']
+Section 5 (Business) has TAs: ['TA 21', 'TA 27', 'TA 29']
+Section 6 (Business) has TAs: ['TA 10', 'TA 33']
+Section 7 (Business) has TAs: ['TA 4', 'TA 13']
+Section 8 (SocSci) has TAs: ['TA 0', 'TA 2', 'TA 35']
+Section 9 (Business) has TAs: ['TA 22', 'TA 26']
+Section 10 (DS) has TAs: ['TA 10', 'TA 19', 'TA 34', 'TA 41']
+Section 11 (DS) has TAs: ['TA 9', 'TA 15', 'TA 32']
+Section 12 (DS) has TAs: ['TA 8', 'TA 14', 'TA 36']
+Section 13 (DS) has TAs: ['TA 12', 'TA 25', 'TA 28']
+Section 14 (Business) has TAs: ['TA 3', 'TA 5', 'TA 11']
+Section 15 (SocSci) has TAs: ['TA 6', 'TA 7', 'TA 23']
+Section 16 (Business) has TAs: ['TA 13', 'TA 24', 'TA 38']
+
+Justification:
+We believe Pareto Index 0 to be the best solution of the ones provided. When deciding our solution, we wanted to weigh our objective functions slightly differently when trying to minimize their scores. As stated in the assignment PDF, you can argue that the "unwilling" function is the most important as it is essentially a "hard constraint". Thus, we wanted to pick a solution that prioritized minimizing unwillingness first and foremost, and we were able to do that as index 0 has an unwilling score of 0. This solution also brings overallocation and conflicts to 0, signifying that no TAs are allocated to more sections than they can handle and there are absolutely no scheduling conflicts. The under support score is 1, which means there is one section that is short by one TA. Although this is not ideal, this number is very low, and all other objectives thus far have been satisfied. Lastly, the score for unwilling is moderate with a score of 5. You could argue this is not as strict of an objective because the TAs may not "prefer" the section, they did state that they were "willing" to support that section. The score of 5 is also fairly low in general, considering the amount of total assignments. In short, this solution suggests that the overall allocation of TAs is close to optimal, and the most critical factors have been minimized.
