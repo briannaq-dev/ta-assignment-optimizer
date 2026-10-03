@@ -1,6 +1,7 @@
 # TA Assignment Optimizer
+### Project for DS3500: Advanced Programming with Data SEC 01 F2024
 
-Assigns teaching assistants to lab sections using a **multi-objective evolutionary algorithm** written from scratch in Python. Built for DS3500 (Advanced Programming with Data).
+Assigns teaching assistants to lab sections using a **multi-objective evolutionary algorithm** written from scratch in Python.
 
 Given 17 sections and 43 TAs, each with a preference per section (**P**referred, **W**illing, **U**nwilling), the optimizer searches for assignments that trade off five goals at once:
 
